@@ -20,7 +20,7 @@ p .alinha{
 }
 .image{
     width: 600px;
-    align-items: center;
+    align-content: center;
 }
 
 .br-3{
