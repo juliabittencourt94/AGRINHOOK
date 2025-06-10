@@ -41,4 +41,8 @@ p .alinha{
     text-align: center;
     padding: 5px;
 }
- 
+
+.active{
+    width: 80%;
+
+}
