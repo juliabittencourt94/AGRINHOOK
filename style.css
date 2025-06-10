@@ -1,0 +1,128 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cabecalho{
+    color: white;
+    background-color: rgb(70, 33, 16);
+    text-align: center;
+    padding: 30px;
+}
+
+
+.cabecalho h3{
+    color: rgb(206, 120, 8);
+}
+
+p .alinha{
+    text-align: right;
+}
+.img-agro{
+    width: 300px;
+}
+
+.br-3{
+    border-radius: 15px;
+}
+
+.img-card{
+    max-height: 250px;
+}
+
+.img-slide{
+    max-height: 400px;
+}
+
+.footer{
+    background-color: rgb(70, 33, 16);
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+ :root {
+    --container-max-width: 1200px;
+    --border-radius: 0.75rem;
+    --shadow-color: rgba(0, 0, 0, 0.05);
+    --transition-duration: 0.3s;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+      Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #ffffff;
+    color: #6b7280;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
+  }
+  main {
+    max-width: var(--container-max-width);
+    width: 100%;
+  }
+  .carousel {
+    position: relative;
+    overflow: hidden;
+    border-radius: var(--border-radius);
+    box-shadow: 0 8px 24px var(--shadow-color);
+    background: #fff;
+  }
+  .carousel-track {
+    display: flex;
+    transition: transform var(--transition-duration) ease;
+    will-change: transform;
+  }
+  .carousel-slide {
+    flex: 0 0 100%;
+    max-width: 100%;
+    user-select: none;
+    pointer-events: none;
+  }
+  .carousel-slide img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    display: block;
+    border-radius: var(--border-radius);
+    pointer-events: none;
+  }
+  /* Navigation buttons */
+  .carousel-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: none;
+    background: rgba(0, 0, 0, 0.15);
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background var(--transition-duration);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .carousel-nav:hover,
+  .carousel-nav:focus {
+    background: rgba(0,0,0,0.4);
+    outline: none;
+  }
+  .carousel-nav.prev {
+    left: 1rem;
+  }
+  .carousel-nav.next {
+    right: 1rem;
+  }
+  @media (hover: none) {
+    .carousel-nav:hover {
+      background: rgba(0, 0, 0, 0.15);
+    }
+  }
