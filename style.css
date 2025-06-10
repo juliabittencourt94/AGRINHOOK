@@ -42,7 +42,7 @@ p .alinha{
     padding: 5px;
 }
 
-.active{
+.carouselExample{
    $carousel-control-color:             $white;
 $carousel-control-width:             15%;
 $carousel-control-opacity:           .5;
