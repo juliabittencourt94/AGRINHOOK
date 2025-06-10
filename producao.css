@@ -19,7 +19,8 @@ p .alinha{
     text-align: right;
 }
 .image{
-    width: 300px;
+    width: 600px;
+    align-items: center;
 }
 
 .br-3{
